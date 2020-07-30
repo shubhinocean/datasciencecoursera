@@ -1,5 +1,5 @@
 ---
-title: "HelloWorld"
+title: "Helloworld"
 author: "Shubham Kumar Sinha"
 date: "7/31/2020"
 output: word_document
@@ -12,12 +12,13 @@ knitr::opts_chunk$set(echo = TRUE)
 ## R Markdown
 
  ## This is a markdown file <https://github.com/shubhinocean/datasciencecoursera>.
-
+```{r}
+print("Hello World")
+```
 
 ```{r cars}
 summary(cars)
 ```
-print("Hello world")
 
 ## Including Plots
 
